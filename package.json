@@ -1,0 +1,12 @@
+{
+  "name": "acos-jsparsons-python-custom",
+  "version": "0.1.0",
+  "description": "Content package that enables creating exercises that are defined as external JSON-file",
+  "main": "index.js",
+  "author": "Lassi Haaranen",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.2",
+    "nunjucks": "^1.2.0"
+  }
+}
