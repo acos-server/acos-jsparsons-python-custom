@@ -4,6 +4,10 @@
   "description": "Content package that enables creating exercises that are defined as external JSON-file",
   "main": "index.js",
   "author": "Lassi Haaranen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acos-server/acos-jsparsons-python-custom"
+  },    
   "license": "MIT",
   "dependencies": {
     "fs": "^0.0.2",
