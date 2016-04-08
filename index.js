@@ -100,6 +100,7 @@ JSPARSONSPythonCustom.register = function(handlers) {
 JSPARSONSPythonCustom.namespace = 'jsparsons-python-custom';
 JSPARSONSPythonCustom.contentTypeNamespace = 'jsparsons';
 JSPARSONSPythonCustom.packageContents = [];
+JSPARSONSPythonCustom.packageType = 'content';
 
 JSPARSONSPythonCustom.meta = {
     'name': 'jsparsons-python-custom',
