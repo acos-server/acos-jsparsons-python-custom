@@ -33,7 +33,6 @@ function initializeURLAsync(req, params, cb) {
     var parsonContent = '<script>\n';
     var initial = query.initial || 'No code given.';
 
-    initial = initial.replace(/\/n/g, '\\n');
     params.headContent += nj.render('head_simple.html', {'initial': initial, 'name': query.name });
     cb();
 }
